@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    margin-top: 10%;
+}
+p{
+    color: red;
+    display:block;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+}
+.app{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+#buttonGroup{
+    margin-top: 80px;
+}
+button{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+#Yes{
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 7px;
+    border: none;
+    background: #7d2ae8;
+    transition: all 0.2s ease;
+}
+#Yes:active{
+    transform: scale(0.96);
+}
+#No{
+    margin-right: 10px;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 7px;
+    border: none;
+    background: #7d2ae8;
+    transition: all 0.2s ease;
+    pointer-events: cursor;
+}
+#No{
+    transform: scale(0.96)
+}
